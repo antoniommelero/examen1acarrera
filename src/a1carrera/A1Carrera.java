@@ -30,6 +30,13 @@ public class A1Carrera {
         System.out.println(carrera.ganadorCompleto());
         System.out.println("Tiempo medio: " + carrera.tiempoMedio());
 
+        System.out.println("\n//// Prueba de nuevas versiones de los metodos");
+        System.out.println("Corredores finalizados: " + carrera.corredoresFinalizados());
+        System.out.println("Dorsal ganador: " + carrera.dorsalGanador2());
+        System.out.println("Tiempo ganador: " + carrera.tiempoGanador2());
+        System.out.println(carrera.ganadorCompleto2());
+        System.out.println("Tiempo medio: " + carrera.tiempoMedio2());
+        
         carrera.ordenarPorTiempo();
         System.out.println("\nArray ordenado por tiempo");
         System.out.println(carrera.mostrarCarrera());
